@@ -23,6 +23,19 @@ namespace girlup.lahs.club.Controllers
             return View();
         }
 
+        [Route("/team")]
+        public IActionResult Team()
+        {
+            return View();
+        }
+
+        [Route("/events")]
+        public IActionResult Events()
+        {
+            return View();
+        }
+
+        [Route("/privacy")]
         public IActionResult Privacy()
         {
             return View();
