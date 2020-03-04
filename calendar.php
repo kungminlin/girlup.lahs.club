@@ -1,5 +1,5 @@
 <?php
-$your_google_calendar="https://calendar.google.com/calendar/embed?src=100020390%40mvla.net&ctz=America%2FLos_Angeles";
+$your_google_calendar="";
 
 $url= parse_url($your_google_calendar);
 $google_domain = $url['scheme'].'://'.$url['host'];
@@ -12,7 +12,7 @@ $dom->loadHTMLfile($your_google_calendar);
 $element = $dom->createElement('link');
 $element->setAttribute('type', 'text/css');
 $element->setAttribute('rel', 'stylesheet');
-$element->setAttribute('href', 'css/schedule.css');
+$element->setAttribute('href', 'assets/css/schedule.css');
 
 // Change Google's JS file to use absolute URLs
 $scripts = $dom->getElementsByTagName('script');
