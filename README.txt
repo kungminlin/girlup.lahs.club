@@ -30,3 +30,24 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+*Girl Up Requirements*
+
+- Schedule for members
+- Incentive system
+   - Participation point
+- Admin dashboard
+   - Posting events
+   - Organizing a calendar
+   - View point system
+   - Minutes tracking for admins
+   - (Possibly) member concerns feedback form
+
+- Pages
+   - About
+   - Team
+   - Schedule
+   - Contact
+
+- Color scheme
+   - Purple, Pink (Magenta), Blue
