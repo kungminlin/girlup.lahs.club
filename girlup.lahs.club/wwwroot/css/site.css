@@ -1,1 +1,21 @@
-﻿
+﻿.padding-y-min {
+    padding-top: 2rem !important;
+}
+
+.split-half {
+    display: flex;
+    flex-direction: column;
+}
+
+.split-half > section {
+    flex: 1 1;
+}
+
+@media screen and (min-width: 768px) {
+    .split-half {
+        flex-direction: row;
+    }
+    .split-half > section {
+        padding: 15px;
+    }
+}
