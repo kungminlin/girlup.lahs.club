@@ -20,24 +20,14 @@
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
 
-        <!-- Intro -->
-        @RenderSection("Intro", required: false)
-
-        <!-- Header -->
-        <header id="header">
-            <a href="/" class="logo">Girl Up LAHS</a>
-        </header>
-
         <!-- Nav -->
-        <nav id="nav">
+        <nav id="nav" class="nav-full">
             <ul class="links">
-                <li class="active"><a href="~/">Girl Up LAHS</a></li>
+                <li><a href="~/">Girl Up LAHS</a></li>
                 <li><a href="~/team">Team</a></li>
                 <li><a href="~/events">Events</a></li>
             </ul>
             <ul class="icons">
-                <li><a href="https://www.facebook.com/losaltoshighschoolgirlup/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="https://www.instagram.com/girluplahs/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
                 <li><partial name="_LoginPartial" /></li>
             </ul>
         </nav>
@@ -49,28 +39,7 @@
 
         <!-- Footer -->
         <footer id="footer">
-            <section>
-                <form method="post" action="#">
-                    <div class="fields">
-                        <div class="field">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div class="field">
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" />
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="3"></textarea>
-                        </div>
-                    </div>
-                    <ul class="actions">
-                        <li><input type="submit" value="Send Message" /></li>
-                    </ul>
-                </form>
-            </section>
-            <section class="split contact">
+            <section class="contact">
                 <section class="alt">
                     <h3>Address</h3>
                     <p>

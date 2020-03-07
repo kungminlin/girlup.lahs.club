@@ -1,4 +1,24 @@
-﻿.padding-y-min {
+﻿.nav-full {
+    display: flex !important;
+    margin: auto !important;
+    width: 100% !important;
+}
+
+.nav-pills {
+    list-style: none;
+    min-width: 240px;
+    margin-right: 50px;
+}
+
+.nav-pills .button {
+    width: 100%;
+}
+
+.button.primary.small.active {
+    background-color: var(--accent-blue) !important;
+}
+
+.padding-y-min {
     padding-top: 2rem !important;
 }
 
