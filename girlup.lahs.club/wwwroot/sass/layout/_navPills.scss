@@ -1,0 +1,29 @@
+
+/* Nav Pills */
+
+	.nav-pills {
+		list-style: none;
+		width: 280px;
+		margin-right: 50px;
+		padding-left: 0;
+
+		li {
+			padding-left: 0;
+
+			.button {
+				width: 100%;
+
+				&.active {
+					background-color: _palette(accent-pink);
+				}
+
+				&:hover {
+					background-color: _palette(accent-pink);
+				}
+			}
+		}
+		
+		@include breakpoint('<=xsmall') {
+			width: 100%;
+		}
+	}

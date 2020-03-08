@@ -4,27 +4,13 @@
     width: 100% !important;
 }
 
-.nav-pills {
-    list-style: none;
-    width: 240px;
-    margin-right: 50px;
-    padding-left: 0;
-}
-
-.nav-pills li {
-    padding-left: 0;
-}
-
-.nav-pills .button {
-    width: 100%;
-}
-
-.button.primary.small.active {
-    background-color: var(--accent-blue) !important;
-}
-
 .padding-y-min {
     padding-top: 2rem !important;
+}
+
+.padding-none {
+    padding: 0 !important;
+    width: 100%;
 }
 
 .split-half {
@@ -37,6 +23,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .padding-none {
+        padding: 0 !important;
+        width: unset;
+    }
     .split-half {
         flex-direction: row;
     }
