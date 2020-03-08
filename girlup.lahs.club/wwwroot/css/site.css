@@ -6,8 +6,13 @@
 
 .nav-pills {
     list-style: none;
-    min-width: 240px;
+    width: 240px;
     margin-right: 50px;
+    padding-left: 0;
+}
+
+.nav-pills li {
+    padding-left: 0;
 }
 
 .nav-pills .button {
