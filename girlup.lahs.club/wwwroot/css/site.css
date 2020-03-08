@@ -1,4 +1,7 @@
-﻿.nav-full {
+﻿
+/* Custom styles that don't fit into components well */
+
+.nav-full {
     display: flex !important;
     margin: auto !important;
     width: 100% !important;
@@ -20,6 +23,12 @@
 
 .split-half > section {
     flex: 1 1;
+}
+
+.border {
+    border: 2px solid #9c27b0;
+    border-radius: 2px;
+    padding: 10px;
 }
 
 @media screen and (min-width: 768px) {

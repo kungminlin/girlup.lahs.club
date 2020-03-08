@@ -10,5 +10,8 @@ namespace girlup.lahs.club.Areas.Identity.Data
     {
         [PersonalData]
         public string FullName { get; set; }
+
+        [PersonalData]
+        public int MinutesAttended { get; set; }
     }
 }

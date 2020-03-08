@@ -31,7 +31,8 @@ namespace girlup.lahs.club.Data
                     FullName = "Admin",
                     UserName = UserName,
                     Email = UserName,
-                    EmailConfirmed = true
+                    EmailConfirmed = true,
+                    MinutesAttended = 0
                 };
                 await userManager.CreateAsync(user, testUserPw);
             }
