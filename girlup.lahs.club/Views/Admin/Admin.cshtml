@@ -1,25 +1,6 @@
-﻿@using girlup.lahs.club.Areas.Identity.Data
-@using Microsoft.AspNetCore.Identity
-@inject SignInManager<ApplicationUser> SignInManager
-@inject UserManager<ApplicationUser> UserManager
-
+﻿
 @{
     ViewData["Title"] = "Admin";
-    Layout = "~/Views/Shared/_FullLayout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Admin</h2>
-
-<div class="row">
-    <div class="padding-none">
-        <ul class="nav-pills">
-            <li><h3 class="border">@UserManager.Users.Count() Club Members</h3></li>
-            <li><a class="button primary small" href="/admin">Admin Overview</a></li>
-            <li><a class="button primary small" href="">Add A User</a></li>
-            <li><a class="button primary small" href="">Events Manager</a></li>
-            <li><a class="button primary small" href="">Meetings Manager</a></li>
-        </ul>
-    </div>
-    <div class="padding-none">
-    </div>
-</div>
