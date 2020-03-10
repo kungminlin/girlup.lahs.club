@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Add User";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4>Add User</h4>
+
+<p class="alert">@ViewData["Message"]</p>
+
+<form id="account" method="post">
+    <div class="form-group">
+        <label for="email"></label>
+        <input id="email" name="email" type="email" placeholder="Email Address" />
+    </div>
+    <div class="form-group">
+        <label for="name"></label>
+        <input id="name" name="name" type="text" placeholder="Name" />
+    </div>
+    <br />
+    <div class="form-group">
+        <button type="submit" class="button primary small">Add User</button>
+    </div>
+</form>
